@@ -1,6 +1,7 @@
 body {
     font-family: "Open Sans", sans-serif;
-
+    background-color:grey;
+    background-position: right bottom 200px;
 }
 
 h1, h2, h3 {
@@ -12,18 +13,18 @@ h2 {
 }
 
 header h2 {
-    color: #CEC8FF;
+    color: #02000c;
 }
 
 .site-footer {
-    background-image: linear-gradient(#CEC8FF, white);
+    background-image: linear-gradient(#CEC8FF, rgb(228, 179, 236));
     padding: 20px 0;
 }
 
 .jumbotron {
-    padding: 30px;
-    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
-    color: white;
+    padding: 50px;
+    background-image: url(/img/logo.png);
+    color: rgb(38, 21, 189);
     margin: 0;
 }
 
@@ -36,7 +37,7 @@ header h2 {
 }
 
 .navbar {
-    background-color: #901CAD;
+    background-color: #2a202d;
 }
 
 .carousel-caption {
